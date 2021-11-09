@@ -1,0 +1,167 @@
+.navbar{
+    background-color:black;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    font-size: 20px;
+    margin-top:0px;
+    display: block;
+}
+body{
+    margin:0px;
+    background-color: black;
+    color:white;
+}
+.text{
+    display: block;
+  align-self:center;
+    justify-content: center;
+    margin: 100px;
+    height:300px;
+    font-size: 40px;
+    width:50% ;
+}
+.centertext{
+    display: flex;
+    justify-content: center;
+}
+.navbar li{
+    display: inline;
+    margin: 0p 20px 0px 20px;
+    
+}
+.navbar li a{
+    color:white;
+    text-decoration:none;
+    margin: 0px 20px 0px 20px;
+
+}
+.content{
+    margin-top:100%;
+}
+.down{
+    align-content:end;
+}
+
+#type{
+    color:#ff006f;
+}
+.navbar li a:hover{
+    color:#ff006f;
+}
+#brand{
+    font-size:25px;
+    color:#ff006f;
+    background-color:#ff006f;
+    border-radius:5px;
+    border: solid #ff006f 5px;
+    border-radius:5px;
+    
+}
+#brand a:hover{
+    color:black;
+}
+
+#first{
+    margin-left:35%;
+    
+}
+
+
+#downlogo{
+    height: 20px;
+    width: 40px;
+    background:transparent;
+}
+.down{
+   position:fixed;
+    bottom:0px;
+    right:50%;
+
+}
+.btngrp{
+   display: flex;
+   justify-content: center;
+
+}
+.btngrp a{
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:10px;
+    text-decoration: none;
+    align-content: center;
+    font-size: 25px;
+    box-shadow:2px 5px #9c9c9c;
+}
+#btn1{
+    color:white;
+    background-color: #ff006f;
+    height: 30px;
+    width:150px;
+    border: solid white 1px;
+    border-radius:10px;
+   margin-right:100px;
+   display:flex;
+    justify-content: center;
+}
+#btn2{
+    color:white;
+    background-color:black;
+    height: 30px;
+    width:150px;
+    border: solid white 1px;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+   
+  
+}
+@media(max-width:900px) and ( min-width:570px)
+{
+    #first{
+        margin-left:20%;
+    }  
+    .navbar{
+        background-color:black;
+        position: absolute;
+        top:0px;
+        width: 100%;
+        font-size: 15px;
+
+}}
+@media(max-width:569px) {
+  h1{
+      font-size:30px;
+  }
+#first{
+    margin:0px;
+}
+.navbar li a{
+    font-size: 13px;
+    padding-left:0px;
+}
+#brand{
+display: none;
+}
+.btngrp a{
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:5px;
+    text-decoration: none;
+    align-content: center;
+    font-size: 15px;
+    box-shadow:1px 4px #9c9c9c;
+}
+#btn1{
+ margin-right:50px;
+ height: 20px;
+ width:100px;
+}
+#btn2{
+    height: 20px;
+    width:100px;
+}
+
+}
