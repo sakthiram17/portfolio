@@ -6,6 +6,7 @@
     font-size: 20px;
     margin-top:0px;
     display: block;
+    color:white;
 }
 body{
     margin:0px;
@@ -28,7 +29,8 @@ body{
 .navbar li{
     display: inline;
     margin: 0p 20px 0px 20px;
-    
+    padding:20px;
+    color:white;
 }
 .navbar li a{
     color:white;
@@ -48,9 +50,9 @@ body{
 .navbar li a:hover{
     color:#ff006f;
 }
-#brand{
+#active{
     font-size:25px;
-    color:#ff006f;
+    color:white;
     background-color:#ff006f;
     border-radius:5px;
     border: solid #ff006f 5px;
@@ -91,7 +93,7 @@ body{
     text-decoration: none;
     align-content: center;
     font-size: 25px;
-    box-shadow:2px 5px #9c9c9c;
+    box-shadow:2px 7px #9c9c9c;
 }
 #btn1{
     color:white;
@@ -116,19 +118,27 @@ body{
    
   
 }
+
+#btn1:active{
+    box-shadow:1px 4px #9c9c9c ;
+}
+#btn2:active{
+    box-shadow:1px 4px #9c9c9c ;
+}
+
+
 @media(max-width:900px) and ( min-width:570px)
 {
     #first{
         margin-left:10%;
     }  
     .navbar{
-        background-color:black;
-        position: absolute;
-        top:0px;
-        width: 100%;
-        font-size: 12px;
+        font-size: 18px;
+        padding:0px;
+ 
+}
 
-}}
+}
 @media(max-width:569px) {
   h1{
       font-size:30px;
@@ -137,11 +147,10 @@ body{
     margin-left:0px;
 }
 .navbar li a{
-    font-size: 10px;
-    margin: 0px 5px 0px 5px;
+    font-size: 15px;
+    margin: 0px;
 }
 .navbar li{
-    margin: 0px 5px 0px 5px;
     padding:0x;
 }
 #brand{
